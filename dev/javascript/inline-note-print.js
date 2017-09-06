@@ -3,10 +3,12 @@
   var noteList = document.querySelector('.c-inline-note__list');
 
   function printNotes() {
-    while (noteList.lastChild) {
-      noteList.removeChild(noteList.lastChild);
+    if (noteList) {
+      while (noteList.lastChild) {
+        noteList.removeChild(noteList.lastChild);
+      }
     }
-    for (var prop in notes){
+    for (var prop in notes) {
       var listItem = document.createElement('li');
       var listSelectedTxt = document.createElement('span');
       listItem.classList.add('c-list__item', 'c-list--ol__item');

@@ -1,7 +1,7 @@
 /**
  * Created by Aashish on 3/1/2017.
  */
-var loader = (function () {
+/*var loader = (function () {
   'use strict';
 
   var show = function (id) {
@@ -39,4 +39,4 @@ var loader = (function () {
     hide: hide,
     toggle: toggle
   };
-})();
+})();*/

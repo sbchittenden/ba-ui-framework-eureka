@@ -1,8 +1,9 @@
+/*
 //grab showcase preview
 var showcaseContainer = document.querySelector(".eureka-showcase-container");
 
 showcaseContainer.addEventListener("click", function (event) {
-    
+
     var clicked = event.target;
     var showcase = document.getElementsByClassName("eureka-showcase");
     //if user clicked on a preview image, display the showcase with that image.
@@ -15,5 +16,5 @@ showcaseContainer.addEventListener("click", function (event) {
     } else {
         showcase[0].style.display="none";
     }
-    
-});
+
+});*/

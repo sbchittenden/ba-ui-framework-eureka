@@ -14,3 +14,6 @@
 # Ignore compiled css and map files
 
 styles/css/*.*
+
+# Ignore node modules
+node_modules/

@@ -1,7 +1,7 @@
 /**
  * Created by Aashish on 2/25/2017.
  */
-(function () {
+/*(function () {
   'use strict';
   // Fetch scrollspy nav, progressbar within it and the label
   // these three will get modified based on the scroll position
@@ -51,4 +51,4 @@
     window.addEventListener('scroll', scrollspyProgress);
   });
 
-})();
+})();*/

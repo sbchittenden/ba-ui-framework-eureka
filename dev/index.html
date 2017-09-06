@@ -3,14 +3,11 @@
 <head>
   <title>Eureka CSS UI Framework</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="styles/css/eureka.css">
-  <link rel="stylesheet" href="prism/prism.css">
+  <link rel="stylesheet" href="css/app.min.css">
+  <link rel="stylesheet" href="css/prism.css">
 </head>
 <body>
-<!-- append the loader div to DOM before loading the script -->
-<div id="loader-site" class="loader loader-overlay loader-overlay--full-page">
-  <div class="loader__load-box"></div>
-</div>
+
 
 <header id="site-header" class="eureka-header">
   <div class="o-grid o-grid--gutters">
@@ -6578,44 +6575,9 @@ $search-second-size-multiplier: .7;
     </li>
   </ul>
 </footer>
-<script src="javascript/alert.js"></script>
-<script src="javascript/badges-demo.js"></script>
-<script src="javascript/bar-graph.js"></script>
-<script src="javascript/bookmarklet.js"></script>
-<script src="javascript/breadcrumb.js"></script>
-<script src="javascript/carousel.js"></script>
-<script src="javascript/chips.js"></script>
-<script src="javascript/collapse.js"></script>
-<script src="javascript/demo.js"></script>
-<script src="javascript/DEMOONLYwtf.js"></script>
-<script src="javascript/dropdown.js"></script>
-<script src="javascript/forminputs.js"></script>
-<script src="javascript/herald.js"></script>
-<script src="javascript/loader.js"></script>
-<script src="javascript/modals.js"></script>
-<script src="javascript/gallery.js"></script>
-<script src="javascript/progressbarbtn.js"></script>
-<script src="javascript/scrollspy-nav.js"></script>
-<!-- <script src="javascript/scrollspy-progress.js"></script> -->
-<script src="javascript/single-input-form.js"></script>
-<script src="javascript/sticky-nav.js"></script>
-<script src="javascript/showcase.js"></script>
-<script src="javascript/tabs.js"></script>
-<script src="javascript/inline-note.js"></script>
-<script src="javascript/dotValid.js"></script>
-<script>
-  (function () {
-    loader.init('loader-site');
-    loader.show('loader-site');
-    window.addEventListener('load', function () {
-      loader.hide('loader-site');
-    });
+<script src="js/app.js"></script>
 
-    loader.init('loader-demo');
-    loader.show('loader-demo');
-  })();
-</script>
 <!-- Prism for nice code markup-->
-<script src="prism/prism.js"></script>
+<script src="js/vendor/prism.js"></script>
 </body>
 </html>

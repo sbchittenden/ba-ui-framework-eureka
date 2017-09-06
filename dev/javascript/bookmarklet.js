@@ -66,7 +66,7 @@
       selectionPopUp.style.left = "";
       selectionPopUp.style.right = "";
 
-      range = selectedRange;
+      var range = selectedRange;
       var rangeDims = range.getClientRects();
       var pageWidth = window.innerWidth;
       var popUpTop = rangeDims[0].top + rangeDims[0].height + 10;

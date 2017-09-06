@@ -1,0 +1,28 @@
+{
+  "name": "eureka_framework",
+  "version": "1.0.0",
+  "description": "Eureka UI framework",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-babel": "^6.1.2",
+    "gulp-clean-css": "^3.4.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "pump": "^1.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sam Chittenden",
+  "license": "ISC"
+}
